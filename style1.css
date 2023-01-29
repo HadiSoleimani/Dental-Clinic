@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+}
+*{
+    box-sizing: border-box;
+    color: black;
+    font-family: inter;
+    font-weight: 200;
+}
+@font-face{
+    font-family: inter;
+    font-weight: 200;
+    src: url(../Dental_Clinic/assets/fonts/NotoSansArabic_SemiCondensed-Regular.ttf);
+}
+@font-face{
+    font-family: inter;
+    font-weight: 400;
+    src: url(../Dental_Clinic/assets/fonts/NotoSansArabic_SemiCondensed-Bold.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    width: 100%;
+    height: 108px;
+}
+.header_right{
+    width: 25%;
+    height: 108px;
+    float: right;
+}
+.header_right img{
+    margin: 9px 61px 9px 35px;
+}
+.header_center{
+    width: 40%;
+    height: 108px;
+    float: right;
+}
+.header_left{
+    width: 35%;
+    height: 108px;
+    padding: 15px 26px;
+    margin-left: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header_nav{
+    float: right;
+    margin-top: 36px;
+    margin-right: 51px;
+}
+.header_nav li{
+    padding-right: 35px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rcv{
+    width: 100%;
+    height: 900px;
+}
+.rcv h1{
+    padding-top: 120px;
+    padding-right: 83px;
+    text-align: right;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 30px;
+}
+.table{
+    width: 1184px;
+    height: 612px;
+    border: 1px solid #cbcbcb;
+    border-radius: 30px;
+    float: right;
+    margin-right: 83px;
+}
+.c1{
+    width: 20%;
+    height: 612px;
+    float: right;
+}
+.c1 h4{
+    text-align: center;
+    margin: 20px 0px;
+}
+.c1 p{
+    text-align: center;
+    margin: 20px 0px;
+    color: #3A4254;
+}

@@ -1,0 +1,423 @@
+body{
+    margin: 0%;
+}
+*{
+    box-sizing: border-box;
+    color: black;
+    font-family: inter;
+    font-weight: 200;
+}
+@font-face{
+    font-family: inter;
+    font-weight: 200;
+    src: url(../Dental_Clinic/assets/fonts/NotoSansArabic_SemiCondensed-Regular.ttf);
+}
+@font-face{
+    font-family: inter;
+    font-weight: 400;
+    src: url(../Dental_Clinic/assets/fonts/NotoSansArabic_SemiCondensed-Bold.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+.header{
+    width: 100%;
+    height: 108px;
+}
+.header_right{
+    width: 25%;
+    height: 108px;
+    float: right;
+}
+.header_right img{
+    margin: 9px 61px 9px 35px;
+}
+.header_center{
+    width: 40%;
+    height: 108px;
+    float: right;
+}
+.header_left{
+    width: 35%;
+    height: 108px;
+    padding: 15px 26px;
+    margin-left: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header_nav{
+    float: right;
+    margin-top: 36px;
+    margin-right: 51px;
+}
+.header_nav li{
+    padding-right: 35px;
+    float: right;
+}
+.btn{
+    width: 310px;
+    height: 71px;
+    background-color: #29D8D8;
+    border-radius: 8px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 26px;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.page_intro{
+    width: 100%;
+    height: 642px;
+    background-color: antiquewhite;
+}
+.page_intro img{
+    float: right;
+    margin-top: 0px;
+    position: relative;
+}
+.page_intro_call{
+    width: 427px;
+    height: 510px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 145px;
+    margin-top: 73px;
+    padding: 0px 50px 16px 50px;
+    text-align: center;
+}
+.page_intro_call h1 {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 20px;
+}
+.page_intro_input1 input{
+    width: 327px;
+    height: 50px;
+    padding: 15px 25px 16px 192px;
+    margin-bottom: 16px;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 16px;
+    color: #3A4254;
+}
+.page_intro_input2 textarea{
+    width: 327px;
+    height: 112px;
+    padding: 15px 25px 40px 25px ;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 16px;
+    color: #3A4254;
+}
+.page_intro_btn{
+    width: 179px;
+    height: 56px;
+    background-color: #2388ff;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    padding: 0px 40px;
+    color: white;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about_us{
+    width: 100%;
+    height: 902px;
+}
+.about_us_right{
+    width: 50%;
+    height: 902px;
+    float: right;
+}
+.about_us_left{
+    width: 50%;
+    height: 902px;
+    float: left;
+}
+.about_us_right img{
+    padding: 143px 0px 143px 0px;
+}
+.about_us_left_content{
+    margin: 289px 80px 344px 73px;
+}
+.about_us_left_content h2 {
+    margin-bottom: 44px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 40px;
+    margin-right: 0px;
+    text-align: right;
+}
+.about_us_left_content hr {
+    width: 161px;
+    float: right;
+    margin-right: 0px;
+}
+.about_us_left_content p {
+    padding-top: 44px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.call{
+    width: 100%;
+    height: 326px;
+    padding-top: 50px;
+    padding-right: 43px;
+}
+.call_comtent{
+    width: 1268px;
+    height: 226px;
+    background-color: #01568c;
+    border-radius: 30px;
+    float: right;
+}
+.call_comtent h3{
+    margin-top: 83px;
+    margin-bottom: 93px;
+    margin-right: 170px;
+    text-align: right;
+    color: white;
+    float: right;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 30px;
+}
+.btn1{
+    width: 268px;
+    height: 61px;
+    padding: 3px 29px 11px 29px;
+    background-color: #29D8D8;
+    border-radius: 8px;
+    border: none;
+    margin-top: 89px;
+    margin-left: 80px;
+    margin-bottom: 86px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+.services{
+    width: 100%;
+    height: 945px;
+}
+.services h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 50px;
+}
+.services_6{
+    margin: 0px 35px 112px 35px;
+    float: right;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 20px;
+}
+.service{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    border-radius: 30px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.service img{
+    margin-top: 72px;
+    margin-right: 150px;
+    float: right;
+}
+.service p{
+    margin-top: 32px;
+    margin-right: 120px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 378px;
+    background-color: #ededed
+}
+.footer_right{
+    width: 327px;
+    height: 302px;
+    float: right;
+    margin: 59px 160px 27px 0px;
+}
+.footer_center{
+    width: 138px;
+    height: 302px;
+    float: right;
+    margin: 59px 111px 17px 0px;
+}
+.footer_left{
+    width: 313px;
+    height: 266px;
+    float: right;
+    margin: 59px 152px 17px 84px;
+}
+.footer_right h4{
+    margin: 16px 6px 18px 0px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
+.footer_right hr{
+    width: 310px;
+    border: 1px solid #3A4254;
+    margin-right: 6px;
+    margin-bottom: 24px;
+}
+.footer_right li{
+    margin-right: 6px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 16px;
+    color: #3A4254;
+}
+.footer_right span{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3A4254;
+}
+.footer_center h4{
+    margin: 16px 6px 18px 0px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
+.footer_center hr{
+    width: 121px;
+    border: 1px solid #3A4254;
+    margin-right: 6px;
+    margin-bottom: 24px;
+}
+.footer_center li{
+    margin-right: 6px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 16px;
+    color: #3A4254;
+    font-family: inter;
+    font-weight: 400;
+}
+.footer_left img{
+    margin-right: 0px;
+    margin-bottom: 7px;
+    float: right;
+}
+.footer_left p{
+    margin-right: 0px;
+    margin-bottom: 13px;
+    float: right;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#scl1{
+    cursor: pointer;
+}
+#scl2{
+    cursor: pointer;
+}
+#scl3{
+    cursor: pointer;
+}
